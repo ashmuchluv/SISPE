@@ -103,7 +103,7 @@ Curso de **Análise e Desenvolvimento de Sistemas**
 
 | Integrante                    |
 | :---------------------------- |
-| 👤 **Lyvia Vitoria dos santos Silva** |
+| 👤 **Lyvia Vitoria dos Santos Silva** |
 | 👤 **Gabriel Detomini Rabelo** |
 
 ---
