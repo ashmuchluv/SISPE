@@ -1,0 +1,33 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Casos de Uso SISPE" id="sispe-casos-de-uso">
+    <mxGraphModel dx="1000" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="820" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sistema" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1"><mxGeometry x="190" y="40" width="640" height="710" as="geometry" /></mxCell>
+        <mxCell id="titulo" value="SISPE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=none;fillColor=none;fontStyle=1;fontSize=22;" vertex="1" parent="1"><mxGeometry x="190" y="50" width="640" height="40" as="geometry" /></mxCell>
+        <mxCell id="ator" value="Usuário&lt;br&gt;(Equipe IntegraPSE)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1"><mxGeometry x="60" y="350" width="30" height="60" as="geometry" /></mxCell>
+        <mxCell id="uc_cadastrar" value="Cadastrar ação" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="250" y="110" width="190" height="66" as="geometry" /></mxCell>
+        <mxCell id="uc_listar" value="Listar ações" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="250" y="200" width="190" height="66" as="geometry" /></mxCell>
+        <mxCell id="uc_pesquisar" value="Pesquisar ação" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="250" y="290" width="190" height="66" as="geometry" /></mxCell>
+        <mxCell id="uc_resumo" value="Gerar resumo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="250" y="380" width="190" height="66" as="geometry" /></mxCell>
+        <mxCell id="uc_atualizar" value="Atualizar situação" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="250" y="470" width="190" height="66" as="geometry" /></mxCell>
+        <mxCell id="uc_registrar" value="Registrar participantes" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="250" y="650" width="190" height="66" as="geometry" /></mxCell>
+        <mxCell id="uc_validar" value="Validar dados da ação" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="590" y="110" width="190" height="66" as="geometry" /></mxCell>
+        <mxCell id="uc_localizar" value="Localizar ação pelo código" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="590" y="560" width="190" height="66" as="geometry" /></mxCell>
+        <mxCell id="assoc0" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ator" target="uc_cadastrar"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="assoc1" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ator" target="uc_listar"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="assoc2" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ator" target="uc_pesquisar"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="assoc3" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ator" target="uc_resumo"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="assoc4" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ator" target="uc_atualizar"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="assoc5" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ator" target="uc_registrar"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="inc0" value="&lt;&lt;include&gt;&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" source="uc_cadastrar" target="uc_validar"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="inc1" value="&lt;&lt;include&gt;&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" source="uc_atualizar" target="uc_localizar"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="inc2" value="&lt;&lt;include&gt;&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" source="uc_registrar" target="uc_localizar"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="ext0" value="&lt;&lt;extend&gt;&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" source="uc_registrar" target="uc_atualizar"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="nota" value="Condição:&lt;br&gt;nova situação&lt;br&gt;= Realizada" style="shape=note;whiteSpace=wrap;html=1;size=14;align=left;spacingLeft=6;" vertex="1" parent="1"><mxGeometry x="232" y="556" width="100" height="60" as="geometry" /></mxCell>
+        <mxCell id="nota_ligacao" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="nota"><mxGeometry relative="1" as="geometry"><mxPoint x="345.0" y="593.0" as="targetPoint" /></mxGeometry></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
